@@ -1,0 +1,96 @@
+p{
+    color: #DC143C;
+    text-align: justify;
+    font-family: calibri, verdana, comic sans, tahoma;
+    font-size: 16pt;
+}
+body{
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0cm, 3cm, 6cm, 9cm;
+}
+hr{
+    border-width: 3px;
+    border-color: #8B0000;
+    border-style: dashed;
+}
+/* groupping */
+fieldset, legend{
+    border: red groove 15px;
+    border-radius: 30px;
+
+}
+legend{
+    padding: 10px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: ubuntu, calibri;
+    letter-spacing: 5px;
+}
+table{
+    border: 3px ridge maroon;
+    margin: auto;
+}
+td{
+    padding: 5px;
+    border: 3px solid green;
+}
+ol{
+    list-style-image: url(image/musik.gif);
+
+}
+ul{
+    list-style-image: url(image/nyanyi.gif);
+}
+ul.hobby{
+    list-style-image: url(image/jempol.gif);
+}
+ul.menu{
+    list-style-image: url(image/jempol.gif);
+}
+/*------------Pseudo class serta id & Class-----------------*/
+div#menu{
+    text-align: center;
+    font-family: ubuntu,calibri,tahoma,jokerman;
+    padding: 10px;
+}
+
+a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    font-size: 14pt;
+    color: #8A2BE2;
+    border: 2px solid;
+    padding: 5px;
+    background: #00FFFF;    
+    
+}
+a.item:hover{
+    text-decoration: none;
+    font-size: 14pt;
+    color: red;
+    border: 2px solid green;
+    padding: 5px;
+    background: green;    
+}
+/*------pseudo element-------*/
+p.p3:first-letter{
+    color: blue;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: algerian, jokerman;
+    float: left;
+    padding-right: 10px;
+}
+p.p3::first-line{
+    color: blue;
+    font-style: italic;
+}
+h1{
+    text-shadow: 2px 2px blue;
+    color: blue;
+}
