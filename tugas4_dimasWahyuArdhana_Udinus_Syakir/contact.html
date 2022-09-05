@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Latihan Form</title>
+    </head>
+
+    <body>
+        <form name="frmLatihan" method="GET" action="#">
+            <table border="0" align="center" width="50%" cellpadding="15">
+                <thead>
+                    <tr bgcolor="pink">
+                        <th colspan="2">Latihan Form</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td width="25%"><label>Nama</label></td>
+                        <td>
+                            <input type="text" name="nama" value="" placeholder="Nama Lengkap"
+                                   size="50" maxlength="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td>
+                            <input type="text" name="email" value="" placeholder="Alamat Email"
+                                   size="50" maxlength="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="L" checked>Laki-laki &nbsp; &nbsp;
+                            <input type="radio" name="gender" value="P">Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><label>Pesan</label></td>
+                        <td>
+                            <textarea name="komentar" cols="50" rows="5" placeholder="Komentar Anda"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr bgcolor="pink">
+                        <th colspan="2">
+                            <input type="submit" name="proses" value="kirim"> &nbsp;
+                            <input type="reset" name="unproses" value="Batal">
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </body>
+</html>
